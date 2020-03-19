@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{350DA79C-26F4-41C8-AEB7-A04E3703EF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{350DA79C-26F4-41C8-AEB7-A04E3703EF59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch ver7", "switch ver7\switch ver7.csproj", "{E6938FA4-2AC3-4DD1-BFCC-60128101C752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array", "array\array.csproj", "{766FC03D-90E4-4686-8892-DDA804D13FEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{350DA79C-26F4-41C8-AEB7-A04E3703EF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{350DA79C-26F4-41C8-AEB7-A04E3703EF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{350DA79C-26F4-41C8-AEB7-A04E3703EF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6938FA4-2AC3-4DD1-BFCC-60128101C752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6938FA4-2AC3-4DD1-BFCC-60128101C752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6938FA4-2AC3-4DD1-BFCC-60128101C752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6938FA4-2AC3-4DD1-BFCC-60128101C752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766FC03D-90E4-4686-8892-DDA804D13FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766FC03D-90E4-4686-8892-DDA804D13FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766FC03D-90E4-4686-8892-DDA804D13FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766FC03D-90E4-4686-8892-DDA804D13FEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
