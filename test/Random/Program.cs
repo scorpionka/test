@@ -17,16 +17,18 @@ namespace _Random
                 Console.Write(y);
                 Console.Write(" ");
             }
+            Console.WriteLine();
             int index_max = 0;
             for (int z = 1; z < 13; z++)
             {
+                Console.WriteLine();
+                Console.WriteLine(data1[z]);
+                Console.WriteLine(data1[z - 1]);
                 if (data1[z] > data1[z - 1])
                 {
-                    Console.WriteLine(data1[z]);
-                    Console.WriteLine(data1[z - 1]);
                     index_max = z;
-                    Console.WriteLine(data1[index_max]);
                 }
+                Console.WriteLine(data1[index_max]);
             }
             Console.WriteLine();
             Console.WriteLine(data1[index_max]);
