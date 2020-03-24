@@ -23,8 +23,8 @@ namespace _Random
             {
                 Console.WriteLine();
                 Console.WriteLine(data1[z]);
-                Console.WriteLine(data1[z - 1]);
-                if (data1[z] > data1[z - 1])
+                Console.WriteLine(data1[index_max]);
+                if (data1[z] > data1[index_max])
                 {
                     index_max = z;
                 }
